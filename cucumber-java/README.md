@@ -1,14 +1,14 @@
-##Cucumber BDD using Java - JUnit
+##Cucumber BDD using Java - TestNG
 
 
 
-Step1: Checkout cucumber-java-junit branch
+Step1: Checkout cucumber-java-testng branch
 
-Step2: From pom.xml file, execute mvn test (Feature files run in parallel) 
+Step2: From pom.xml file, execute mvn test (scenarios run in parallel) 
 
 Step3: To generate report, execute mvn verify (navigate to Target folder, and click 'overview-features.html' file to view the report)
 
-NOTE: JUnit will only execute Feature files to run in parallel not Scenarios.
+NOTE: TestNG will execute Scenarios to run in parallel.
 
 #Issues&Resolution
 Issue1: Chromedriver in Java not executable
